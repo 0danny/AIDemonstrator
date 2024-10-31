@@ -1,0 +1,12 @@
+names:
+- bent
+- broken sheet
+- crack
+- graffiti
+- rust/dust
+- sign
+nc: 6
+path: C:\Users\Daniel Paolone\Desktop\Local School\AI for Engineering\Group Project\data
+test: C:\Users\Daniel Paolone\Desktop\Local School\AI for Engineering\Group Project\data\images\test
+train: C:\Users\Daniel Paolone\Desktop\Local School\AI for Engineering\Group Project\data\images\train
+val: C:\Users\Daniel Paolone\Desktop\Local School\AI for Engineering\Group Project\data\images\val

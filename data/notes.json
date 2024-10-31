@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "bent"
+    },
+    {
+      "id": 1,
+      "name": "broken sheet"
+    },
+    {
+      "id": 2,
+      "name": "crack"
+    },
+    {
+      "id": 3,
+      "name": "graffiti"
+    },
+    {
+      "id": 4,
+      "name": "rust\/dust"
+    },
+    {
+      "id": 5,
+      "name": "sign"
+    }
+  ],
+  "info": {
+    "year": 2024,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

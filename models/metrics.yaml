@@ -1,0 +1,213 @@
+best_epoch: -1
+best_map: !!python/object/apply:numpy.core.multiarray.scalar
+- &id001 !!python/object/apply:numpy.dtype
+  args:
+  - f8
+  - false
+  - true
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  VDVB1H0A3D8=
+best_map50: !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  8zy4O2u34z8=
+best_precision: !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  TtGRXP5D7j8=
+best_recall: !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  X5hMFYxK4z8=
+class_iou:
+  bent:
+    max: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      OhJJDEue6z8=
+    mean: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      veg/mkHp3D8=
+    min: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UcCp1SBpzT8=
+  broken sheet:
+    max: 0
+    mean: 0
+    min: 0
+  crack:
+    max: 0
+    mean: 0
+    min: 0
+  graffiti:
+    max: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      8TXLHJnT7T8=
+    mean: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      +NoU7eAN3T8=
+    min: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      hZb19N90lz8=
+  rust/dust:
+    max: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      h2TRKfU37z8=
+    mean: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      q3gBAl2/4D8=
+    min: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      iSs0EZubkD8=
+  sign:
+    max: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      zcfx+JVF7z8=
+    mean: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      wRFE34DV4j8=
+    min: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      P+ZLIpi4gz8=
+class_names:
+- bent
+- broken sheet
+- crack
+- graffiti
+- rust/dust
+- sign
+date: '2024-10-20T08:12:45.612746'
+final_train_box_loss: !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  RWXDmsqikD8=
+final_train_cls_loss: !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  lJriFpi6YD8=
+final_train_obj_loss: !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  TwMGSZ9WgT8=
+final_val_box_loss: !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  G0ZB8Pj2nj8=
+final_val_cls_loss: !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  wOyePCzUij8=
+final_val_obj_loss: !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  DHTtC+iFiz8=
+hyperparameters: &id002
+  anchor_t: 4.0
+  box: 0.05
+  cls: 0.5
+  cls_pw: 1.0
+  copy_paste: 0.0
+  degrees: 0.0
+  fl_gamma: 0.0
+  fliplr: 0.5
+  flipud: 0.0
+  hsv_h: 0.015
+  hsv_s: 0.7
+  hsv_v: 0.4
+  iou_t: 0.2
+  lr0: 0.01
+  lrf: 0.01
+  mixup: 0.0
+  momentum: 0.937
+  mosaic: 1.0
+  obj: 1.0
+  obj_pw: 1.0
+  perspective: 0.0
+  scale: 0.5
+  shear: 0.0
+  translate: 0.1
+  warmup_bias_lr: 0.1
+  warmup_epochs: 3.0
+  warmup_momentum: 0.8
+  weight_decay: 0.0005
+max_iou: !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  zcfx+JVF7z8=
+mean_iou: !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  h+7DOeIh4j8=
+min_iou: !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  P+ZLIpi4gz8=
+num_classes: 6
+training_options:
+  artifact_alias: latest
+  batch_size: 16
+  bbox_interval: -1
+  bucket: ''
+  cache: null
+  cfg: ''
+  cos_lr: false
+  data: /content/drive/MyDrive/data/dataset.yaml
+  device: '0'
+  entity: null
+  epochs: 100
+  evolve: null
+  evolve_population: !!python/object/apply:pathlib.WindowsPath
+  - yolov5
+  - data
+  - hyps
+  exist_ok: true
+  freeze:
+  - 0
+  hyp: *id002
+  image_weights: false
+  imgsz: 1024
+  label_smoothing: 0.0
+  local_rank: -1
+  multi_scale: false
+  name: exp
+  ndjson_console: false
+  ndjson_file: false
+  noautoanchor: false
+  noplots: false
+  nosave: false
+  noval: false
+  optimizer: SGD
+  patience: 100
+  project: /content/drive/MyDrive/data/runs
+  quad: false
+  rect: false
+  resume: false
+  resume_evolve: null
+  save_dir: /content/drive/MyDrive/data/runs/exp
+  save_period: -1
+  seed: 0
+  single_cls: false
+  sync_bn: false
+  upload_dataset: false
+  weights: yolov5m.pt
+  workers: 2
